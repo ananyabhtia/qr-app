@@ -2,9 +2,9 @@ import React from "react";
 import '../components.css'
 
 const CourseList = ({courses}) => (
-    <div className="courses-list">
+    <div className="courses-container">
         { Object.entries(courses).map(([key, entry]) => 
-        <div className="courses-container">
+        <div className="courses-card">
             <div className="code-name">
                 <h2 key={key} className='courses-code'>{entry.term} CS {entry.number}</h2>
                 <h3 key={key} className='courses-text'>{entry.title}</h3>
