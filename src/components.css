@@ -1,0 +1,44 @@
+body{
+    margin: 1vw;
+}
+div{
+    font-family: 'SF Pro', sans-serif;
+}
+
+hr{
+    margin-right: 1vh;
+    margin-left: 1vh;
+}
+
+.courses-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 11vw);
+    font-size: 0.75rem;
+}
+
+.courses-container{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(228, 228, 228);
+    justify-content: space-between;
+}
+
+.courses-code{
+    font-weight: 600;
+    margin: 3vh;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+.courses-text{
+    font-weight: 400;
+    margin-right: 3vh;
+    margin-left: 3vh;
+}
+
+.hr-meets .code-text{
+    margin: 0px;
+}
+
