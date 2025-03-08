@@ -26,6 +26,16 @@ hr{
     justify-content: space-between;
 }
 
+.selected{
+    background-color: aquamarine;
+    border-color: rgb(34, 183, 133);
+}
+
+.hr-selected{
+    border-color: rgb(34, 183, 133);
+    background-color: rgb(34, 183, 133);
+}
+
 .courses-code{
     font-weight: 600;
     margin: 3vh;

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import CourseList from './courselist';
+import CoursePage from './coursepage';
 
 const terms = {
     Fall: 'Fall term courses...',
@@ -30,7 +30,7 @@ const TermPage = ({courses}) => {
     return (
         <div>
             <TermSelector selection={selection} setSelection={setSelection} />
-            <CourseList courses={filteredCourses} />
+            <CoursePage courses={filteredCourses}/>
         </div>
     );
 };
